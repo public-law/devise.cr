@@ -1,3 +1,5 @@
+require "./rails/cookie_cipher"
+
 # TODO: Write documentation for `Devise`
 module Devise
   VERSION = "0.1.0"
