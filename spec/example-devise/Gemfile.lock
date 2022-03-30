@@ -140,6 +140,8 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.3-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.13.3-x86_64-linux)
+      racc (~> 1.4)
     orm_adapter (0.5.0)
     pry (0.14.1)
       coderay (~> 1.1)
@@ -147,7 +149,7 @@ GEM
     pry-rails (0.3.9)
       pry (>= 0.10.4)
     public_suffix (4.0.6)
-    puma (5.6.2)
+    puma (5.6.4)
       nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.3)
@@ -231,6 +233,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
@@ -240,7 +243,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   pry-rails (~> 0.3.9)
-  puma (~> 5.0)
+  puma (~> 5.6)
   rails (~> 7.0.2, >= 7.0.2.3)
   redis (~> 4.0)
   selenium-webdriver
